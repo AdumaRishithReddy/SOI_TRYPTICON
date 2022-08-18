@@ -1,6 +1,6 @@
 # SOI_TRYPTICON
 
-This git contains:
+####This git contains:
   -[Source code of arduino](https://github.com/AdumaRishithReddy/SOI_TRYPTICON/blob/main/normal.ino)
   -
   
