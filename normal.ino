@@ -81,9 +81,13 @@ int distance2()
 void loop() {
    float distance1i=distance1();
     float distance2i=distance2();
+    Serial.println(distance1i);
+    Serial.print("distance");
+    Serial.println(distance2i);
+    
   
-    if(distance1i<9){
-     if(distance2i<9){
+    if(distance1i<9 && distance1i!=0){
+     if(distance2i<15){
         moveright();
       }
      else{
@@ -91,10 +95,10 @@ void loop() {
      }
       
     }
-    else if(distance2i<2){
+    else if(distance2i<5){
         moverighta();
     }
     else{ 
       moveforward();
-    }
-} 
+    }
+}
